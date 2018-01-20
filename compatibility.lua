@@ -145,9 +145,7 @@ minetest.register_alias("farming:weed", "default:grass_2")
 if minetest.get_modpath("bushes_classic") then
 
 	if eth then
-		minetest.register_alias("bushes:strawberry", "farming:strawberry")
-	else
-		minetest.register_alias("bushes:strawberry", "farming:raspberries")
+		minetest.register_alias("bushes:strawberry", "ethereal:strawberry")
 	end
 
 	minetest.register_alias("bushes:blueberry", "farming:blueberries")
